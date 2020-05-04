@@ -1,0 +1,10 @@
+.App{
+    margin-top: 10%;
+    width:100%;
+    max-width:1250px;
+    height: 10px;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+
+}
