@@ -1,16 +1,14 @@
 
 import React from 'react';
 import classes from './App.module.css';
-import Card from '../card/card';
+import CardsHolder from '../cardsHolder/cardsHolder';
 
 
 const app = (props) =>{
   return (
     <div className={classes.App}>
-      <Card name="Cherry" price="2$" img={'/img/cherry.jpg'}/>
-      <Card name="kiwi" price="2$" img={'/img/kiwi.jpg'}/>
-      <Card name="lemons" price="2$" img={'/img/lemons.jpg'}/>
-      <Card name="strawberry" price="2$" img={'/img/strawberry.jpg'}/>
+      <h1>Food Comparison</h1>
+      <CardsHolder/>
     </div>
   );
 };
