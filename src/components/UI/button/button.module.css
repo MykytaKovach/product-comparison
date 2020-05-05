@@ -1,0 +1,14 @@
+.Button {
+    border: 3px #fff solid ;
+    z-index: 3;
+    padding:0 10px;
+    transition:all ease-out 200ms;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.Button:hover{
+    background: #fff;
+    color:rgb(33, 221, 184);
+
+}

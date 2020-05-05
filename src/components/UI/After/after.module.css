@@ -1,0 +1,21 @@
+.After{
+    height: 80%;
+    width: 100%;
+    background:rgb(33, 221, 184) ;
+    position: absolute;
+    top:0;
+    left:0;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+    opacity:0;
+    transition:all ease-out 200ms;
+    z-index: 2;
+}
+
+
+@media(max-width:1000px){
+    
+    .After{
+        height: 70%;
+    }
+}
