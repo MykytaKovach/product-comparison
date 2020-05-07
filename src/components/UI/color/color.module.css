@@ -1,0 +1,19 @@
+.Color div{
+    width:1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    margin:0 0.3rem;
+}
+
+.Color{
+    display: flex;
+    justify-content: center;
+}
+
+
+@media(max-width:400px){
+    .Color div{
+        width:.9rem;
+        height: .9rem;
+    }
+}

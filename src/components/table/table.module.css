@@ -1,0 +1,32 @@
+.Table, th, td {
+
+    border-bottom: 1px solid #ddd;
+    border-collapse: collapse;
+    padding: 0.5rem;
+    color:rgb(61, 65, 75);
+    font-size:1.2rem ;
+    width:25%;
+  }
+.Table tr :first-child{
+    text-transform: uppercase;
+    text-align:left;
+    font-weight: bold;
+}
+.Table thead tr {
+    background-color: rgb(240, 245, 248);}
+.Table tr:nth-child(even) {
+    background-color: rgb(240, 245, 248);}
+
+.Table{
+    width:100%;
+    margin-top: 2rem;
+    text-align: center;
+    background: #fff;
+}
+
+@media(max-width:500px){
+    .Table, th, td {
+        padding: 0.5rem;
+        font-size:0.8rem ;
+    }
+}
